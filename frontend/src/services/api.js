@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Base API URL (CHANGE THIS after deployment)
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL,  
+  baseURL: "https://atm-project-pfzh.onrender.com/api", 
 });
 
 // 🔐 Attach token automatically (IMPORTANT)
