@@ -19,7 +19,7 @@ const app = express();
 
 // Middlewares
 app.use(cors({
-  origin: "*"
+  origin: "https://atm-project-virid.vercel.app/"
 }));
 
 app.use(express.json());

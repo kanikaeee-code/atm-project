@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Base API URL (CHANGE THIS after deployment)
 const API = axios.create({
-  baseURL: "https://your-backend.onrender.com/api",
+  baseURL: import.meta.env.VITE_API_URL,  
 });
 
 // 🔐 Attach token automatically (IMPORTANT)
